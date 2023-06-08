@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    width: 100vh;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+}
+
+.input_field {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
