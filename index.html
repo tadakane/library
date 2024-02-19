@@ -4,12 +4,21 @@
         <meta charset="UTF-8">
         <title>Library</title>
         <link rel="stylesheet" href="styles.css">
-        <script src="library.js" defer></script>
     </head>
     <body>
         <h1>Library</h1>
         <div class="books">
         </div>
-        <button id="new" onclick="bookForm()">NEW BOOK</button>
+        <script src="library.js"></script>
+        <button id="new" onclick="callBookForm()">NEW BOOK</button>
+        <script>
+            let newLibrary = new Library();
+            function callBookForm() {
+                myLibrary.bookForm();
+            }
+            function callAddHelper() {
+                myLibrary.addHelper();
+            }
+        </script>
     </body>
 </html>
